@@ -25,7 +25,7 @@ export default function Dashboard(props) {
         if (!props.myNews) {
             router.get("/news");
         }
-        console.log("propss:", props);
+       
         return;
     }, []);
 
